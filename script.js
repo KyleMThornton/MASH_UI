@@ -11,7 +11,11 @@ let finalSpouse
 let finalCar
 let finalJob
 
-console.log('Hello and welcome to MASH! Before I chart out your future I need you to answer a few questions for me:')
+const form = document.getElementById("form")
+const formData = new FormData(form)
+
+
+/*
 let genderPref = prompt("Would you prefer to marry a Male or Female? (type 'M' or 'F'): ").toLowerCase;
 potentialSpouse.push(prompt("Who would you like to marry? "))
 potentialSpouse.push(prompt("Who else would you like to marry? "))
@@ -19,6 +23,7 @@ potentialJob.push(prompt("What would you like to do for a living? "))
 potentialJob.push(prompt("What else would you like to do for a living? "))
 potentialCar.push(prompt("What kind of car would you like to drive? "))
 potentialCar.push(prompt("What other kind of car would you like to drive? "))
+*/
 
 const computerSpouseSelection = (genderPref) => {
     if(genderPref =="m") {
