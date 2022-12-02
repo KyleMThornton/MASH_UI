@@ -13,7 +13,7 @@ let finalJob
 
 const form = document.getElementById("form")
 const formData = new FormData(form)
-
+console.log(formData)
 
 /*
 let genderPref = prompt("Would you prefer to marry a Male or Female? (type 'M' or 'F'): ").toLowerCase;
@@ -25,6 +25,7 @@ potentialCar.push(prompt("What kind of car would you like to drive? "))
 potentialCar.push(prompt("What other kind of car would you like to drive? "))
 */
 
+/*
 const computerSpouseSelection = (genderPref) => {
     if(genderPref =="m") {
         let guy1 = computerSpouseListM[Math.floor(Math.random() * 4)]
@@ -65,3 +66,4 @@ let finalWealth = wealthList[Math.floor(Math.random() * 2)]
 
 console.log("I have made my prediction of your future!")
 console.log(`You will be ${finalWealth} and live in a(n) ${finalHouse}. You will marry ${finalSpouse}, you will drive a ${finalCar} and you will work as a ${finalJob}!`)
+*/
